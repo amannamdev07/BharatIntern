@@ -1,0 +1,36 @@
+@media screen and (max-width : 720px) {
+    html {
+        font-size: 52%;
+    }
+    
+    .logo_img {
+        width: 25%;
+    }
+
+    .hero_text_section {
+        width: 85%;
+    }
+    
+    .hero_text_section h1 {
+        font-size: 4rem;
+    }
+    
+    .hero_text_section p {
+        font-size: 1.98rem;
+    }
+
+    .hero_btn_div {
+        flex-direction: column;
+        margin-top: 2.5rem;
+    }
+
+    .hero_text_section input {
+        width: 100%;
+    }
+
+    .getStartedBtn {
+        font-size: 1.9rem !important;
+        background-color: var(--red);
+    }
+    
+}
